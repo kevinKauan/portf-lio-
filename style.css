@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.informacoes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(30px,auto) minmax(200px,auto);
+
+    .topo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 20px;
+        background-color: rgb(55, 201, 189);
+    }
+
+    .curriculo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+
+        .sobre-mim {
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+        .minha-foto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link-redes {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(30px,auto);
+
+    .projetos-alt {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+
+        .projetos-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .projetos-descricao {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
